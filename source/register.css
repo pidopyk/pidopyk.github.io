@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10,100..900&display=swap');
+
+* {
+    margin: 0%;
+}body{
+    font-family: 'Manrope', sans-serif;
+    background-image:url(reg_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.stroki{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 5% 25%;
+    background-color: rgba(56, 29, 57, 25%);
+    border-radius: 25px;
+}
+.stroki>*{
+    margin: 20px 0%;
+}
+h1,h2,p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:slnt (-10);
+    color: white;
+}
+h1{
+    font-size:100px;
+}
+p{
+    font-size:28px;
+}
+
+/*ИМЯ*/
+.name{
+    border: solid white;
+    padding: 2% 5%;
+
+}
+.name>*{
+    vertical-align:text-top;
+    margin-right: 500px;
+}
+
+/*почта*/
+.mail{
+    border: solid white;
+    padding: 2% 5%;
+
+}
+.mail>*{
+    vertical-align:text-top;
+    margin-right: 472px;
+}
+
+/*пароль*/
+.password{
+    border: solid white;
+    padding: 2% 5%;
+
+}
+.password>*{
+    vertical-align:text-top;
+    margin-right: 458px;
+}
+
+/*повтор пароля*/
+.re-password{
+    border: solid white;
+    padding: 2% 5%;
+
+}
+.re-password>*{
+    vertical-align:text-top;
+    margin-right: 350px;
+}
+/*кнопка отправить*/
+.to-send{
+margin-top: 6%;
+}

@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,9,121,1) 47%, rgba(255,0,249,1) 100%);
+
+background-size: 100% 100%;
+background-attachment: fixed;
+    font-family: Noto Sans, sans-serif;
+    width:cover;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    padding: 2% 5%;
+}
+header>p{
+    color:rgba(255, 255, 255, 0.6000000238418579);
+    text-align:center;
+    vertical-align:text-top;
+    font-size:20px;
+    font-family:"Inter", sans-serif;;
+    letter-spacing:-2.5px;
+    line-height:auto;
+    width:169px;
+    }
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -10;
+}
+* {
+    margin: 0%;
+}
+#baner {
+    font-family: 'Manrope', sans-serif;
+    background-image:url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 25%;
+
+}
+.idols{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: cover;
+    margin-top: 1%;
+}
+.odin{
+    left: 200px;
+    top:340px;
+    position:absolute;
+    display: inline-block;
+}
+
+.fan_k-pop{
+    background-image: url(fon_text1.png);
+    width: 617px;
+    height: 198px;
+    background-repeat: no-repeat;
+
+    font-family: "Baloo 2", sans-serif; 
+    font-size:64px;
+    vertical-align:text-top;
+    text-align:center;
+    color:#fff;
+    padding-top: 30px;
+    line-height:60px;
+}
+
+.botom{
+    display: flex;
+    justify-content: space-around;
+}
+.smotret_merch{
+    display: inline-block;
+    color: black;
+    background-color: yellow;
+    text-decoration:none;
+    padding: 8px 30px;
+    margin-left: 66px;
+    line-height:20px;
+    border-radius: 28px;
+    font-size:20px;
+    vertical-align:text-top;
+    text-align:center;
+    font-family: "Baloo 2", sans-serif;
+}
+.galereya{
+    display: inline-block;
+    color: #fff;
+    background-color: #C3589A;
+    text-decoration:none;
+    padding: 16px 44px;
+    margin-right: 66px;
+    border-radius: 28px;
+    font-size:20px;
+    vertical-align:text-top;
+    text-align:center;
+    font-family: "Bellota", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+.mnogo_tovarov{
+    display: inline-block;
+
+    left:800px;
+    top:525px;
+    position:absolute;
+
+    background-image: url(fon_text2.png);
+    width: 774px;
+    height: 200px;
+    background-repeat: no-repeat;
+
+    font-family: "Baloo 2", sans-serif;
+    font-size:64px;
+    vertical-align:text-top;
+    text-align:center;
+    color:#fff;
+    padding-top: 36px;
+    line-height:60px;
+}
+
+.sale{
+    left:600px;
+    top:125px;
+    position:absolute;
+    
+}
